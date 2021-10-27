@@ -29,8 +29,7 @@ try{
         res.send(service)
     })
 
-
-    // POST API
+    // POST APIs
     app.post('/services', async(req, res)=>{
         const service = req.body;
         console.log('hitted the post', service)
