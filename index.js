@@ -76,6 +76,10 @@ app.get('/', (req, res)=>{
 });
 
 
+app.get('/hello', (req,res)=>{
+    res.send('hello updated hare');
+})
+
 app.listen(port, ()=>{
     console.log('listened');
 })
